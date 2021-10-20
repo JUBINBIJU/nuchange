@@ -4,7 +4,7 @@ AIM: Develop a program in Java(urldatabase) that can be run in the command line 
 To start the program: run java urldatabase. Further, the program will wait for the user to enter the following commands. The command storeurl shall take a URL as a parameter and save that into a table with a unique short key and a count(usage count) initialized to 0. a. Use local variables instead of a database to store the data. b. Use any appropriate logic to generate the unique short key. The command get shall take a URL as a parameter and return the unique short key after incrementing the usage count. The command count shall take a URL as a parameter and should return the latest usage count. The command list should return all urls and counts. The return value is in JSON. The command exit should terminate the program STEPS
 There are 2 classes created called assignment and Table
 
-All the necessary java packages from the java library are imported. A class called assignment is ceated for the purpose.A do while loop is used dor the repetition of command reception. First of all get a command from the user To start the program: run java urldatabase. 
+All the necessary java packages from the java library are imported. A class called assignment is created for the purpose.A do while loop is used dor the repetition of command reception. First of all get a command from the user To start the program: run java urldatabase. 
 Commands: 
 a. storeurl google.com 
 b. get google.com 
